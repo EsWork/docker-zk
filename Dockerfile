@@ -18,8 +18,8 @@ LABEL description="zookeeper built from source" \
       maintainer="JohnWu <v.la@live.cn>"
 
 #china mirrors repos
-RUN echo "https://mirrors.ustc.edu.cn/alpine/latest-stable/main" > /etc/apk/repositories \
-&&  echo "https://mirrors.ustc.edu.cn/alpine/latest-stable/community" >> /etc/apk/repositories
+# RUN echo "https://mirrors.ustc.edu.cn/alpine/latest-stable/main" > /etc/apk/repositories \
+# &&  echo "https://mirrors.ustc.edu.cn/alpine/latest-stable/community" >> /etc/apk/repositories
 
 RUN mkdir -p "${ZK_DATA_DIR}" "${ZK_DATA_LOG_DIR}" \
 && cd /tmp \
