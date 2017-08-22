@@ -1,0 +1,15 @@
+sudo: required
+language: bash
+services: docker
+dist: trusty
+
+branches: 
+  only: 
+    - master
+
+before_install:
+  - docker build -t eswork/zk -f Dockerfile .
+  
+script: 
+  - docker run --name zk -d -p 9092:9092 eswork/zk; sleep 5
+  - docker ps -a | grep -q zk

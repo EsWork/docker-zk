@@ -1,0 +1,5 @@
+zookeeper:
+  image: eswork/zk:3.4.10
+  ports:
+    - "2181:2181"
+  restart: always
