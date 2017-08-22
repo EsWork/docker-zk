@@ -18,7 +18,7 @@ Environment variables
 - **SERVICE_UID** : user id *(default : 1000)*
 - **SERVICE_GID** : group id *(default : 1000)*
 
-- ZOO_MY_ID="0"
+- ZK_MY_ID="0"
 - ZK_DATA_DIR="/opt/zk/data"
 - ZK_INIT_LIMIT="5"
 - ZK_MAX_CLIENT_CXNS="500"
