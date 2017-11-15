@@ -11,7 +11,7 @@ ENV ZK_DATA_DIR=${SERVICE_HOME}/data \
     ZK_DATA_LOG_DIR=${SERVICE_HOME}/logs \
     PATH=${SERVICE_HOME}/bin:${PATH}
 
-ARG DISTRO_NAME=zookeeper-3.4.10
+ARG DISTRO_NAME=zookeeper-3.4.11
 
 LABEL description="zookeeper built from source" \
       zookeeper="zookeeper ${SERVICE_VERSION}" \
