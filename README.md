@@ -6,7 +6,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`latest` , `3.4.11` (3.4.11/Dockerfile)](https://github.com/EsWork/docker-zk/blob/master/Dockerfile)
+- [`latest` , `3.4.12` (3.4.12/Dockerfile)](https://github.com/EsWork/docker-zk/blob/master/Dockerfile)
 
 * eswork/zk
 
